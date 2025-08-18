@@ -1,0 +1,71 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        header{
+            background-color: #0f0f0f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image:url(bike.1);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1{
+            font-size: 3rem;
+            background: rgb(0,0,0,0,2);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+        }
+        nav a{
+            color:#fff;
+            text-decoration: solid;
+            font-weight:bold;
+            transition: color 0.5s;
+        }
+        nav a:hover{
+            color:#00bfff;
+        }
+        section{
+            padding: 60px;
+        }
+        .specs{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #f4f4f4;
+        }
+        .specs-1{
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 8px rgba(0,0,0,0.7);
+            margin: 15px;
+            padding: 20px;
+            width: 200px;
+        }
+        .gallery{
+            display: flex;
+            justify-content: center;
+            gap:20px;
+        }
+        .gallery img{
+            width: 200px;
+        }
